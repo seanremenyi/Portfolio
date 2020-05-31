@@ -29,8 +29,7 @@ body, html {
     display:flex;
     position: absolute;
     top: 4%;
-    right: 2%
-    
+    right: 2%;
   }
 
 .pages {
@@ -44,28 +43,31 @@ body, html {
   color: white;
   padding-right: 25px;
   font-family: 'Noto Sans', sans-serif;
-  font-size:13px
+  font-size:13px;
   } 
 
 .header{
     font-weight: bold;
     font-size: 20px;
     opacity:0.8;
-    font-family: 'Noto Sans', sans-serif;
     display: flex;
 }
 
 .content{
-  position: fixed;
-  top: calc(50% - 90px);
-  left: calc(50% - 250px);
-  
-    font-size: 30px;
     color: white;
-    display: flex;
-    flex-direction: column;
-    padding:0px;
+    justify-content: space-between;
+    font-family:'Noto Sans', sans-serif;
 }
-#name{
-  font-size:80px;
+#title{
+    position:absolute;
+    top:25%;
+    left: 5%;
+    font-size: 40px;
 }
+#text{
+    width: 500px;
+    position:absolute;
+    top:25%;
+    right: calc(50% - 400px);
+    font-size:16px;
+    }
