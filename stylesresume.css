@@ -22,4 +22,62 @@ body {
   padding:0;
   margin:0;
 }
+.sm {
+    text-align: right;
+    display:flex;
+    position: absolute;
+    top: 4%;
+    right: 2%;
+  }
 
+.pages {
+    text-align: right;
+    position: absolute;
+    top:5%;
+    left: 2%;
+   }
+
+.pages a{
+  color: white;
+  padding-right: 25px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size:13px;
+  } 
+
+.header{
+    font-weight: bold;
+    font-size: 20px;
+    opacity:0.8;
+    display: flex;
+}
+.content{
+    color: white;
+    font-family:'Noto Sans', sans-serif;
+}
+#title{
+    position:absolute;
+    top:25%;
+    left: 5%;
+    font-size: 16px;
+}
+.page{
+  font-size:40px;
+}
+#text{
+    position:absolute;
+    top:20%;
+    left: calc(40% - 100px);
+    font-size:16px;
+}
+.content a{
+  color:white;
+}
+.layout{
+  display: flex;
+}
+.subtitle{
+  font-size:20px;
+}
+.description{
+  font-size: 14px;
+}

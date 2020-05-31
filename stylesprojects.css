@@ -63,8 +63,8 @@ body {
 }
 #text{
     position:absolute;
-    top:25%;
-    left: calc(50% - 100px);
+    top:20%;
+    left: calc(40% - 100px);
     font-size:16px;
 }
 .subtitle{
