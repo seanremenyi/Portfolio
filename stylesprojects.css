@@ -64,11 +64,26 @@ body {
 #text{
     position:absolute;
     top:25%;
-    right: calc(50% - 400px);
+    left: calc(50% - 100px);
     font-size:16px;
 }
 .subtitle{
-    background-color: red;
+    font-size:30px;
+    padding-bottom: 10px;
+}
+.subtitle2{
+  font-size:20px;
+  width:250px;
+  padding-bottom: 10px;
+}
+.contain{
+  display:flex;
+}
+.subtitle2 a{
+  color: white;
+}
+.description, .details{
+  font-size:14px;
 }
 
 
