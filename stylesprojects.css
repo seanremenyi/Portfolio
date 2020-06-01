@@ -1,11 +1,11 @@
 html {
- background-image: url("forest.jpg"); 
+ background-image: url("5.jpg"); 
   background-color:rgba(7, 7, 7, 0.852);
    background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height:100%;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding:0;
   margin:0;
 }
@@ -13,7 +13,7 @@ body {
     margin:0;
     padding:0;
 }
-.overlay {
+/*.overlay {
   background-color: blue;
   opacity: 0.8;
   width:100%;
@@ -22,6 +22,7 @@ body {
   padding:0;
   margin:0;
 }
+*/
 .sm {
     text-align: right;
     display:flex;
@@ -40,8 +41,9 @@ body {
 .pages a{
   color: white;
   padding-right: 25px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size:13px;
+  text-decoration:none;
   } 
 
 .header{
@@ -53,11 +55,11 @@ body {
 
 .content{
     color: white;
-    font-family:'Noto Sans', sans-serif;
+    font-family:'Poppins', sans-serif;
 }
 #title{
     position:absolute;
-    top:25%;
+    top:calc(20% - 8px);
     left: 5%;
     font-size: 40px;
 }
@@ -74,13 +76,14 @@ body {
 .subtitle2{
   font-size:20px;
   width:250px;
-  padding-bottom: 10px;
+  padding-bottom: 60px;
 }
 .contain{
   display:flex;
 }
 .subtitle2 a{
   color: white;
+  
 }
 .description, .details{
   font-size:14px;
