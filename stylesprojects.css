@@ -29,7 +29,11 @@ body {
     position: absolute;
     top: 4%;
     right: 2%;
-  }
+}
+
+.sm a {
+  padding-left:15px;
+}
 
 .pages {
     text-align: right;
@@ -45,7 +49,9 @@ body {
   font-size:13px;
   text-decoration:none;
   } 
-
+.pages a:nth-child(3){
+  text-decoration: underline;
+}
 .header{
     font-weight: bold;
     font-size: 20px;
@@ -70,7 +76,7 @@ body {
     font-size:16px;
 }
 .subtitle{
-    font-size:30px;
+    font-size:26px;
     padding-bottom: 10px;
 }
 .subtitle2{

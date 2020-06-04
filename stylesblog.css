@@ -1,10 +1,11 @@
 html {
  background-image: url("7.jpg"); 
- background-color:blue;
+ background-color:rgba(7, 7, 7, 0.852);
     background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  height:180%;
+  height:100%;
   font-family: 'Poppins', sans-serif;
   padding:0;
   margin:0;
@@ -31,7 +32,9 @@ body {
     right: 2%;
     text-decoration:none;
   }
-
+.sm a {
+  padding-left:15px;
+}
 .pages {
     text-align: right;
     position: absolute;
@@ -46,6 +49,10 @@ body {
   font-size:13px;
   text-decoration:none;
   } 
+
+.pages a:nth-child(5){
+  text-decoration: underline;
+}
 
 .header{
     font-weight: bold;
@@ -67,7 +74,7 @@ body {
 }
 #text{
     position:absolute;
-    top: calc(20% - 8px);
+    top: 20%;
     font-size:26px;
     left: calc(40% - 100px);
     }

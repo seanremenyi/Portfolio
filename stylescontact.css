@@ -30,7 +30,9 @@ body {
     right: 2%;
     text-decoration:none;
   }
-
+.sm a {
+  padding-left:15px;
+}
 .pages {
     text-align: right;
     position: absolute;
@@ -45,7 +47,9 @@ body {
   font-size:13px;
   text-decoration:none;
   } 
-
+.pages a:nth-child(6){
+  text-decoration: underline;
+}
 .header{
     font-weight: bold;
     font-size: 20px;
@@ -67,7 +71,7 @@ body {
 #text{
     width: 700px;
     position:absolute;
-    top: 60%;
+    top: calc(20% - 8px);
     font-size:26px;
     left: calc(40% - 100px);
     }

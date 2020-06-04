@@ -31,7 +31,9 @@ body {
     top: 4%;
     right: 2%;
   }
-
+.sm a {
+  padding-left:15px;
+}
 .pages {
     text-align: right;
     position: absolute;
@@ -46,6 +48,9 @@ body {
   font-size:13px;
   text-decoration:none;
   } 
+ .pages a:nth-child(2){
+  text-decoration: underline;
+}
 
 .header{
     font-weight: bold;
