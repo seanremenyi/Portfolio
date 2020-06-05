@@ -1,3 +1,4 @@
+/*-------background image and page font styling--------*/
 html {
   background-image: url("2.jpg"); 
   background-color:rgba(7, 7, 7, 0.852);
@@ -8,6 +9,7 @@ html {
   font-family: 'Poppins', sans-serif;
   color:white;
 }
+/*------social media styling--------*/
 .sm {    
   text-align: center;
   position:fixed;
@@ -21,6 +23,7 @@ html {
 .sm a:nth-child(1) {
   padding-left: 0px;
 }
+/*------other pages styling--------*/
 .pages {
   text-align: center;
   position:fixed;
@@ -39,6 +42,7 @@ html {
 .pages a:nth-child(6){
   padding-right: 0px;
 }
+/*------------content styling----------------------------*/
 .content{
   top:25%;
   font-size: 25px;
@@ -54,31 +58,31 @@ html {
 #name, #title {
   text-align:center;
 }
+/*------------styling for different widths-------------------*/
 @media all and (min-width: 490px) {
-
 div.pages{
-width:95%;
-position:absolute;
-left:2.5%; 
+  width:95%;
+  position:absolute;
+  left:2.5%; 
 }
 div.sm{
-    right:calc(50% - 165px);
-}}
+  right:calc(50% - 165px);
+}
+}
 @media all and (min-width: 600px) {
 div.pages{
-    text-align: left;
-    position: absolute;
-    top:5%;
-    left: 2%;
+  text-align: left;
+  position: absolute;
+  top:5%;
+  left: 2%;
 }
 div.sm{
-    text-align: right;
-    display:flex;
-    position: absolute;
-    top: 4.8%;
-    right:2%;
-    width:120px;
-    
+  text-align: right;
+  display:flex;
+  position: absolute;
+  top: 4.8%;
+  right:2%;
+  width:120px;  
 }  
 div.content{  
   top: calc(50% - 90px);
@@ -90,22 +94,15 @@ div#name, div#title {
 }
 div.sm a{
   padding-left: 4%;
-}}
-
-
+}
+}
 @media all and (min-width: 760px){
 div.sm a{
   padding-left: 15px;
 }
-div.pages{
-    text-align: left;
-    position: absolute;
-    top:5%;
-    left: 2%;
-}
- 
 div.content{  
   top: calc(50% - 90px);
   left: calc(50% - 270px);
   width:600px;
-}}
+}
+}
