@@ -1,7 +1,7 @@
 html {
  background-image: url("5.jpg"); 
  background-color:rgba(7, 7, 7, 0.852);
-    background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -60,7 +60,7 @@ html {
     }
 .subtitle{
     position:relative;
-    font-size:30px;
+    font-size:26px;
     padding-bottom: 10px;
     width:300px;
     left:calc(50% - 145px);
@@ -128,9 +128,9 @@ div#title{
 div#text{
     width: 460px;
     position:absolute;
-    top:20%;
+    top:19%;
     font-size:16px;
-    left: calc(50% - 100px);
+    left: calc(50% - 190px);
     text-align:left;
     }
 div.sm{
@@ -143,32 +143,31 @@ div.subheader img{
  position:relative;
  right:10px;
 }
-}
-@media all and (min-width: 960px){
+
+div.subtitle{
+  position:relative;
+  left: calc(50% - 150px);
+}}
+
+@media all and (min-width: 800px){
 div.description, div.details{
   width:500px;
-  padding-right:0px;
-} }
-@media all and (min-width: 1360px){
-div#text{
-  position:absolute;
-  left:calc(40% - 200px);
-    text-align:left;
-
 }
+@media all and (min-width: 900px){
+div.description, div.details{
+  width:600px;
+}
+@media all and (min-width: 1050px){
+
+div#text{
+    width: 700px;
+    position:absolute;
+    top:20%;
+    font-size:16px;
+   left:calc(40% - 325px);
+    text-align:left;
+    }
 div.description, div.details{
   width:700px;
-} 
-div.subtitle{
-
-position:relative;
-left:calc(40% - 101.5px);
-}
-div.subheader{
-
-  padding-right:25px;
-  display:inline-block;
-}
-
-
-}
+}    
+    }
