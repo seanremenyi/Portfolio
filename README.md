@@ -26,7 +26,7 @@ Features include:
     I would like to include the code however that i was originally using for the effect because it took me a long time to figure out and was proud for learning it.
     I ran out of time in my presentation so couldn't bring it up then either (I wanted to keep my code clean so didn't just want to comment it out).
     set html height:100% then
-   '''
+   
     .overlay {
     background-color: blue;
     opacity: 0.8;
@@ -40,5 +40,5 @@ Features include:
 -Extra html pages for full size pictures for my blog.
 -Links embedded into text on my resume and projects page.
 -Cv.pdf linked on my resume page.
-![picture](../1.jpg)
+![picture](docs/1.jpg)
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
