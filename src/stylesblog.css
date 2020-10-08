@@ -75,7 +75,7 @@ html {
 /*------------styling for different widths-------------------*/
 @media all and (min-width: 420px){
 .sm {    
-  top: 2400px; 
+  top: 2480px; 
 }
 }
 @media all and (min-width: 440px){

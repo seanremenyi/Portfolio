@@ -48,13 +48,17 @@ The following is my sitemap showcasing the pages I created as well as the ones i
 Below showcases my thought process, here is a mood board from pinterest
 ![mood board](src/img/screenshot2.png)
 
-And here is a screenshot of my wireframe. For full wireframes of the site please refer to the wireframes in the docs/ folder.
+And here is a screenshot of my wireframe. For full wireframes of the site please refer to the slide deck presentation in the ppt/ folder as it contains all of them.
+I am unable to add them as seperate files do to being at 100% of the user@sahara space (unable to even do my final commit).
 ![wireframe](src/img/screenshot1.png)
 
 Here is also an early draft of the website that was later scraped because i thought the design was too loud and wasn't as geared to my target audience.
 ![old site preview](src/img/screenshot4.png)
 
+#Target
 My target audience is IT professionals, recruiters and perspective employers. It is my hope that the design, features and code displayed on this website will help land me future employment.
+
+#Tech Stack
 I used a tech stack which include HTML, CSS and git for version control.
 
-Thank you
+###Thank you
