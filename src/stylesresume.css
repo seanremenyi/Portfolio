@@ -1,7 +1,7 @@
 /*-------background image and page font styling--------*/
 html {
   background-image: url("img/6.jpg"); 
-  background-color:rgba(7, 7, 7, 0.852);
+  /*background-color:rgba(7, 7, 7, 0.852);*/
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
