@@ -55,6 +55,7 @@ html {
   font-size: 40px;
   margin-right: 0px;
 }
+
 #text{
   position:relative;
   top:180px;
@@ -69,7 +70,7 @@ html {
   left:calc(50% - 145px);
 }
 .subheader{
-  font-size:20px;
+  font-size:25px;
   position:relative;
   left:calc(50% - 146px);
   width:350px;
