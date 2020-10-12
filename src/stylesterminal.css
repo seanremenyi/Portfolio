@@ -40,6 +40,7 @@ html {
 } 
 .pages a:nth-child(3){
   text-decoration: underline;
+  /*width:400px;*/
 }
 /*------------content styling----------------------------*/
 .content{
@@ -71,7 +72,7 @@ html {
   font-size:20px;
   position:relative;
   left:calc(50% - 146px);
-  width:300px;
+  width:350px;
   padding-bottom: 60px;
   text-align:center;
 }
@@ -81,6 +82,7 @@ html {
 }
 .subheader a{
   color: white;
+
 }
 .description, .details{
   font-size:14px;
