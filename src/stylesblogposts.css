@@ -38,9 +38,8 @@ html {
   text-decoration:none;
   opacity:0.8;
 } 
-.pages a:nth-child(3){
+.pages a:nth-child(5){
   text-decoration: underline;
-  /*width:400px;*/
 }
 #blog{
   height: 30px;
@@ -69,7 +68,7 @@ html {
 }
 .subtitle{
   position:relative;
-  font-size:26px;
+  font-size:40px;
   padding-bottom: 10px;
   width:400px;
   left:calc(50% - 145px);
