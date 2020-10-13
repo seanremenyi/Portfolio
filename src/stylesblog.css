@@ -72,6 +72,9 @@ html {
 .subtitle{
   font-size:28px;
 }
+.subtitle a{
+  color: white;
+}
 /*------------styling for different widths-------------------*/
 @media all and (min-width: 420px){
 .sm {    
