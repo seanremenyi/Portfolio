@@ -91,6 +91,10 @@ html {
   height: 200px;
   /*background-image: url("img/screenshot1.png");*/
 }
+
+.subheader img{
+  left:calc(50% - 350px);
+}
 .past{
   display:flex;
   flex-direction:column;
