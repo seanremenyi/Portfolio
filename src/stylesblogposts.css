@@ -110,7 +110,7 @@ html {
 /*------------styling for different widths-------------------*/
 @media all and (min-width: 420px) {
 .sm {    
-  top: 2200px;
+  top: 900px;
 }
 }
 @media all and (min-width: 600px) {
@@ -150,7 +150,7 @@ div#title{
   position:absolute;
   top:calc(20% - 8px);
   left: 5%;
-  font-size: 40px;
+  font-size: 20px;
 }
 div#text{
   width: 460px;
