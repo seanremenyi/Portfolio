@@ -1,6 +1,6 @@
 /*-------background image and page font styling--------*/
 html {
-  background-image: url("img/SeanRemenyi_Wallpaper_001.jpg"); 
+  background-image: url("img/SeanRemenyi_Wallpaper_004.jpg"); 
   /*background-color:rgba(7, 7, 7, 0.852);*/
   background-position: center;
   background-repeat: no-repeat;
@@ -70,7 +70,7 @@ html {
   position:relative;
   font-size:40px;
   padding-bottom: 10px;
-  width:400px;
+  width:600px;
   left:calc(50% - 145px);
 }
 .subheader{
@@ -93,7 +93,7 @@ html {
 }
 
 .subheader img{
-  left:calc(50%-140);
+  left:calc(50% - 350px);
 }
 .past{
   display:flex;
@@ -110,27 +110,7 @@ html {
 /*------------styling for different widths-------------------*/
 @media all and (min-width: 420px) {
 .sm {    
-  top: 2200px;
-}
-div#title{
-  position:absolute;
-  top:calc(10% +5 px);
-  left: calc(50% - 80px);
-  font-size: 40px;
-}
-div#text{
-  top:140px;
-}
-div.subheader{
-  text-align:left;
-}
-div.subheader img{
-  position:;
-  left: calc(50% -100px);
-}
-div.subtitle{
-  position:relative;
-  left: calc(50% - 150px);
+  top: 900px;
 }
 }
 @media all and (min-width: 600px) {
@@ -152,7 +132,9 @@ div.sm{
 div.sm a{
   padding-left: 4%;
 }
-
+div#text{
+  top:140px;
+}
 }
 @media all and (min-width: 760px){
 div.sm a{
@@ -164,7 +146,12 @@ div.pages{
   top:5%;
   left: 2%;
 }
-
+div#title{
+  position:absolute;
+  top:calc(20% - 8px);
+  left: 5%;
+  font-size: 20px;
+}
 div#text{
   width: 460px;
   position:absolute;
@@ -180,7 +167,7 @@ div.subheader{
   text-align:left;
 }
 div.subheader img{
-  position:relative;
+  position:absolute;
   right:10px;
 }
 div.subtitle{
