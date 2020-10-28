@@ -76,6 +76,10 @@ html {
   color: white;
 }
 /*------------styling for different widths-------------------*/
+@media all and (min-width: 220px){
+.sm {    
+  top: 1150px; 
+}
 @media all and (min-width: 420px){
 .sm {    
   top: 1140px; 
