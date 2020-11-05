@@ -90,9 +90,22 @@ html {
   font-size:14px;
 }
 /*------------styling for different widths-------------------*/
-@media all and (min-width: 420px) {
+@media all and (min-width: 220px) {
 .sm {    
-  top: 2200px;
+  top: 900px;
+}
+#title{
+  text-align: center;
+  left:calc(50% - 123px);
+}
+.subtitle{
+  width:250px;
+  left:calc(50% - 120px);
+}
+.subheader{
+  width: 250px;
+  left:calc(50% - 120px);
+  
 }
 }
 @media all and (min-width: 600px) {
