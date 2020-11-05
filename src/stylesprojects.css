@@ -87,9 +87,9 @@ html {
   font-size:14px;
 }
 /*------------styling for different widths-------------------*/
-@media all and (min-width: 420px) {
+@media all and (min-width: 250px) {
 .sm {    
-  top: 2200px;
+  top: 1500px;
 }
 }
 @media all and (min-width: 600px) {
