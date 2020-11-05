@@ -90,12 +90,25 @@ html {
   font-size:14px;
 }
 /*------------styling for different widths-------------------*/
-@media all and (min-width: 420px) {
+@media all and (min-width: 220px) {
 .sm {    
-  top: 2200px;
+  top: 1200px;
+}
+#title{
+  left:calc(50% - 100px);
+}
+.subtitle{
+  width:250px;
+  left:calc(50% - 120px);
+}
+.subheader{
+  width: 250px;
+  left:calc(50% - 120px);
+  
 }
 }
 @media all and (min-width: 600px) {
+
 div.pages{
   text-align: left;
   position: absolute;
@@ -147,14 +160,16 @@ div.sm{
 }
 div.subheader{
   text-align:left;
+  left:calc(50% - 146px);
+  width:450px;
+  
 }
-div.subheader img{
-  position:relative;
-  right:10px;
-}
+
 div.subtitle{
   position:relative;
   left: calc(50% - 150px);
+  width:500px;
+  
 }
 }
 @media all and (min-width: 800px){
