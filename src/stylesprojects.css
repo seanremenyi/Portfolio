@@ -87,11 +87,7 @@ html {
   font-size:14px;
 }
 /*------------styling for different widths-------------------*/
-<<<<<<< HEAD
-@media all and (min-width: 250px) {
-=======
 @media all and (min-width: 220px) {
->>>>>>> 68d10da6677981353a419dcbde5717b7e80132e6
 .sm {    
   top: 1500px;
 }
