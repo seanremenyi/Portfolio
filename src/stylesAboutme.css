@@ -66,24 +66,24 @@ html {
   padding-bottom:10px;
 }
 /*------------styling for different widths-------------------*/
-@media all and (min-width: 330px){
+@media all and (min-width: 230px){
 .sm {    
-  top: 1100px; 
+  top: 1500px; 
 }
 }
 @media all and (min-width: 359px){
 .sm {    
-  top: 1050px;
+  top: 1350px;
 }
 }
 @media all and (min-width: 420px){
 div.sm {    
-  top: 950px;
+  top: 1250px;
 }
 }
 @media all and (min-width: 500px){
 div.sm {    
-  top: 850px;
+  top: 1050px;
 }
 }
 @media all and (min-width: 600px) {

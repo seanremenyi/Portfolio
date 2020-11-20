@@ -91,9 +91,22 @@ html {
   font-size:14px;
 }
 /*------------styling for different widths-------------------*/
-@media all and (min-width: 420px) {
+@media all and (min-width: 220px) {
 .sm {    
-  top: 2200px;
+  top: 2000px;
+}
+#title{
+  left:calc(50% - 110px);
+  text-align: center;
+}
+.subtitle{
+  width:250px;
+  left:calc(50% - 120px);
+}
+.subheader{
+  width: 250px;
+  left:calc(50% - 121px);
+  
 }
 }
 @media all and (min-width: 600px) {
@@ -148,6 +161,7 @@ div.sm{
 }
 div.subheader{
   text-align:left;
+  left:calc(50% - 146px);
 }
 div.subheader img{
   position:relative;

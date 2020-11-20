@@ -1,6 +1,6 @@
 /*-------background image and page font styling--------*/
 html {
-  background-image: url("img/SeanRemenyi_Wallpaper_004.jpg"); 
+  background-image: url("img/SeanRemenyi_Wallpaper_001.jpg"); 
   /*background-color:rgba(7, 7, 7, 0.852);*/
   background-position: center;
   background-repeat: no-repeat;
@@ -90,9 +90,22 @@ html {
   font-size:14px;
 }
 /*------------styling for different widths-------------------*/
-@media all and (min-width: 420px) {
+@media all and (min-width: 220px) {
 .sm {    
-  top: 2200px;
+  top: 900px;
+}
+#title{
+  text-align: center;
+  left:calc(50% - 123px);
+}
+.subtitle{
+  width:250px;
+  left:calc(50% - 120px);
+}
+.subheader{
+  width: 250px;
+  left:calc(50% - 120px);
+  
 }
 }
 @media all and (min-width: 600px) {
@@ -146,6 +159,7 @@ div.sm{
   right:2%;
 }
 div.subheader{
+  left:calc(50% - 146px);
   text-align:left;
 }
 div.subheader img{

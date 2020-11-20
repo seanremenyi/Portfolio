@@ -18,10 +18,10 @@ This might mean the style sheet used to create the hash might have had code inje
 - Links embedded into text on my resume and projects page.
 - Cv.pdf linked on my resume page.
 
-# Sitemap
+<!--# Sitemap-->
 
-The following is my sitemap showcasing the pages I created as well as the ones it links outside to.
-![sitemap](docs/sitemap2.png)
+<!--The following is my sitemap showcasing the pages I created as well as the ones it links outside to.-->
+<!--![sitemap](docs/sitemap2.png)-->
 
 # Thought Process
 
