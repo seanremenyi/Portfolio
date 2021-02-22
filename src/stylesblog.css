@@ -78,21 +78,21 @@ html {
 /*------------styling for different widths-------------------*/
 @media all and (min-width: 220px){
 .sm {    
-  top: 1150px; 
+  top: 1250px; 
 }
 @media all and (min-width: 420px){
 .sm {    
-  top: 1140px; 
+  top: 1240px; 
 }
 }
 @media all and (min-width: 440px){
 .sm {    
-  top:1130px;
+  top:1230px;
 }
 }
 @media all and (min-width: 500px){
 .sm {    
-  top: 1120px; 
+  top: 1220px; 
 }
 }
 @media all and (min-width: 600px) {

@@ -92,6 +92,11 @@ img:nth-child(3){
   padding-left: 18px;
 }
 /*------------styling for different widths-------------------*/
+@media all and (min-width: 420px){
+.sm {    
+  top: 1140px; 
+}
+
 @media all and (min-width: 600px) {
 div.pages{
   text-align: left;
